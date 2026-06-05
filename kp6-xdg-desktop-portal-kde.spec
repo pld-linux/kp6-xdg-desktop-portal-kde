@@ -51,6 +51,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A portal frontend service for Flatpak and possibly other desktop
 containment frameworks.
 
+%description -l pl.UTF-8
+Usługa frontendu do portalu Flatpaka i podobnych.
+
 %prep
 %setup -q -n %{kpname}-%{version}
 

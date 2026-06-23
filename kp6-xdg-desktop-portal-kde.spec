@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	6.7.0
+%define		kdeplasmaver	6.7.1
 %define		qtver		5.15.2
 %define		kpname		xdg-desktop-portal-kde
 
 Summary:	KDE XDG Desktop Portal
 Name:		kp6-%{kpname}
-Version:	6.7.0
-Release:	2
+Version:	6.7.1
+Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	8495fed6fa9571234f421d6718c67372
+# Source0-md5:	60b9a4218ef89b357468410b59b09767
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	cmake >= 3.16.0
